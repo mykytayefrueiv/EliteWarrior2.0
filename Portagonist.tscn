@@ -1,19 +1,19 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Archer.png" type="Texture" id=1]
+[ext_resource path="res://RawImages/DevochkaSosochka.png" type="Texture" id=1]
 [ext_resource path="res://Portagonist.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 21.5, 31.5 )
+extents = Vector2( 13, 23.5 )
 
 [node name="Protagonist" type="KinematicBody2D"]
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -28.5, 77.5 )
+position = Vector2( 13.3518, -22.9298 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -35.125, 71.75 )
-scale = Vector2( 0.354743, 0.36157 )
+position = Vector2( 17.6759, -21.8492 )
+scale = Vector2( 0.771122, 0.785962 )
 texture = ExtResource( 1 )
