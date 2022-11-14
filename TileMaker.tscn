@@ -3,9 +3,9 @@
 [ext_resource path="res://Assets/Grids/landscapeTiles_059.png" type="Texture" id=1]
 
 [sub_resource type="NavigationPolygon" id=1]
-vertices = PoolVector2Array( -66, -16, -0.511624, -48, 64.9767, -16, -0.511624, 16 )
-polygons = [ PoolIntArray( 0, 1, 2, 3 ) ]
-outlines = [ PoolVector2Array( -66, -16, -0.511624, -48, 64.9767, -16, -0.511624, 16 ) ]
+vertices = PoolVector2Array( -49.6279, -24, -16.8837, -40, 15.8605, -40, 48.6047, -24, 48.6047, -8, 15.8605, 8, -16.8837, 8, -49.6279, -8 )
+polygons = [ PoolIntArray( 0, 1, 2, 3, 4, 5, 6, 7 ) ]
+outlines = [ PoolVector2Array( -49.6279, -24, -16.8837, -40, 15.8605, -40, 48.6047, -24, 48.6047, -8, 15.8605, 8, -16.8837, 8, -49.6279, -8 ) ]
 
 [node name="TileMaker" type="Node2D"]
 

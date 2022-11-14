@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var speed := 10000
+var speed := 100
 var path := PoolVector2Array() setget set_path
 
 func _ready() -> void:
